@@ -1,0 +1,23 @@
+<?php
+	require_once('../include/cabecalho.php');
+	require_once "../model/dog.php";
+	require_once "../model/database.php";
+	$dog = new Dog;
+	$dog = Dog::find_by_id($_GET['id']);
+?>
+
+        <div id="conteudo">
+            <?php 
+					echo "<form action='../controller/cliente.php?action=update&id={$_GET['id']}' method='post' enctype='multipart/form-data'>";
+					echo "Nome:<br />";
+					echo "<input type='text' name='nome' value='$dog->nome' /><br />";
+					echo "Idade:<br />";
+					echo "<input type='text' name='email' value='$dog->idade' /><br />";
+					echo "Ingrus:<br />";
+					echo "<input type='text' name='telefone' value='$dog->ingrus' /><br />";?>
+					<input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    </body>
+</html>

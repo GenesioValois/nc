@@ -1,0 +1,103 @@
+#all {
+display: table;
+margin: 0 auto;
+min-height: 100%;
+width: 1000px;
+font-family: "Helvetica", sans-serif;
+}
+#logo{
+display: table;
+margin: 0px auto;
+min-height: 100%;
+width: 1000px;
+}
+#img{
+float: right;
+margin-top: 15px;
+margin-bottom: 5px;
+width: 146px;
+height: 141px;
+background: url("logo_nobile.png");
+}
+#menu{
+display: table;
+margin: 5px auto;
+min-height: 100%;
+font-size: 15px;
+font-weight: bold;
+height: 30px;
+width: 1000px;
+}
+
+a.linkMenu{
+float: right;
+text-decoration: none;
+color: black;
+margin-right: 28px;
+}
+a:hover{
+color: #EFE928;
+}
+
+#conteudo{
+display: table;
+margin: 0px auto;
+min-height: 100%;
+width: 1000px;
+}
+
+#img2{
+margin-left: 200px;
+margin-top:30px;
+margin-bottom:5px;
+width: 628px;
+height: 600px;
+background: url("Don.png");
+}
+
+#kennel{
+display: table;
+margin-left: 305px;
+}
+
+#subtitulo{
+font-size: 42px;
+color: rgb(159, 155, 27);
+margin: 0 auto;
+}
+#p1{
+font-size: 23px;
+margin-bottom: -18px;
+}
+#p2{
+font-size: 19px;
+color: black;
+}
+
+#rodape{
+display: table;
+margin: 0px auto;
+min-height: 100%;
+width: 1000px;
+height: 141px;
+}
+#p3{    
+margin-top: 0px;
+font-size: 13px;
+color: black;
+}
+#fbl{
+width: 25px;
+height: 25px;
+}
+#fb{
+margin-left: 485px;
+margin-bottom:5px;
+width: 25px;
+height: 25px;
+background: url("Face.png") no-repeat scroll 0 0px;
+}
+#fb:hover {
+background: url("Face.png") no-repeat scroll -25px 0px;
+}
+
